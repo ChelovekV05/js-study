@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        /* Значение null это отсутствие какого-либо значения,
+        если бы было иначе в первой строке значение было бы как и в 2-х последующих
+        true, ведь одна из них показывает что null >= 0, а вторая что null <= 0 и
+        следовательно null == 0 должно быть true, но нет значение false*/
+        console.log(null == 0); // false
+        console.log(null >= 0); // true
+        console.log(null <= 0); // true
+        console.log(null > 0); // false
+        console.log(null < 0); // false
+        console.log(null != 0); // true
+        console.log(null === 0); // false
+        console.log(null !== 0); // true
+    </script>
+</body>
+</html>
